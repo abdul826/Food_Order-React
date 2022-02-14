@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.menu{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(190, 166, 166, 0.397);
+    padding-top: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    width: 50%;
+    height: 80vh;
+    background-color: rgb(197, 118, 118);
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cardarea{
+    width: 100%;
+    height: 43%;
+    background-color: #fff;
+    padding-top: 1px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.158);
+    /* margin-left: 70px; */
+    margin-top: 40px;
+}
+.cardimg{
+    width: 95%;
+    height: 55%;
+    /* border: 1px solid black; */
+    margin-left: 6px;
+    margin-top: 5px;
+   
+}
+.cardimg img{
+    width: 100%;
+    height: 100%;
+}
+h3{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+h6{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-size: 12px;
+    /* letter-spacing: 4px; */
+}
+.menubutton{
+    width: 35%;
+    background-color: rgba(0, 0, 0, 0.781);
+    font-size: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    padding:7px 3px;
+    margin-top: 5px;
+    color: white;
+}
+.menubutton:hover{
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.521);
+    background-color: #fff;
+    color: black;
+  
+}
+
+@media only screen and (max-width: 992px) {
+    .menubutton{
+        width: 10%;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+      .cards{
+          width: 16.5%;
+      }
+    .menubutton{
+        width: 40%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .menubutton{
+        width: 14%;
+    }
+  }
+  @media only screen and (max-width: 460px) {
+    .menubutton{
+        width: 20%;
+    }
+  }
+  
+  @media only screen and (max-width: 360px) {
+    .button{
+        width: 24%;
+    }
+  }
+  
